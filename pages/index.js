@@ -15,9 +15,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Julian van Beek</h1>
-        <form action="">
-          <input className="input" type="text" pattern="[a-z]*" />
-        </form>
       </main>
     </div>
   )
