@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Header } from '../components/header'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Labweeks() {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,10 +14,7 @@ export default function Home() {
       <Header />
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Julian van Beek</h1>
-        <form action="">
-          <input className="input" type="text" pattern="[a-z]*" />
-        </form>
+        <h1 className={styles.title}>Lab Weeks</h1>
       </main>
     </div>
   )
