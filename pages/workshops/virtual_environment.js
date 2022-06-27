@@ -6,13 +6,13 @@ import Image from 'next/image';
 import aframe2 from '../../public/images/aframe2.png';
 
 import step1 from '../../public/images/tutorial1/start.png';
-import step2 from '../../public/images/tutorial1/Step 2.png';
-import step3 from '../../public/images/tutorial1/Step 3.png';
-import step4 from '../../public/images/tutorial1/step 4.png';
-import step5 from '../../public/images/tutorial1/step 5.png';
-import step6 from '../../public/images/tutorial1/step 6.png';
-import step7 from '../../public/images/tutorial1/step 7.png';
-import step8 from '../../public/images/tutorial1/step 8.png';
+import step2 from '../../public/images/tutorial1/Step2.png';
+import step3 from '../../public/images/tutorial1/Step3.png';
+import step4 from '../../public/images/tutorial1/step4.png';
+import step5 from '../../public/images/tutorial1/step5.png';
+import step6 from '../../public/images/tutorial1/step6.png';
+import step7 from '../../public/images/tutorial1/step7.png';
+import step8 from '../../public/images/tutorial1/step8.png';
 
 import step2v1 from '../../public/images/tutorial2/step1.png';
 import step2v2 from '../../public/images/tutorial2/step2.png';
