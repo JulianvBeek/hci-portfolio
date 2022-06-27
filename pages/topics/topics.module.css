@@ -9,10 +9,22 @@
   display: flex;
   margin: 0 auto;
   flex-direction: column;
+  padding-bottom: 5rem;
 }
 
 .main .title {
   font-size: 3rem;
   margin-top: 3em;
   text-align: center;
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.paragraph {
+  max-width: 80%;
 }

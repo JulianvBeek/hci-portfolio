@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { Header } from '../../components/header'
-import styles from '../../styles/Home.module.css'
+import styles from './topics.module.css';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Artificial() {
   return (
@@ -15,6 +17,46 @@ export default function Artificial() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Artificial Creatures</h1>
+        <>
+          <h2>Homeostasis</h2>
+          <p className={styles.paragraph}>
+          Het homeostasis model is een model waarbij de behoeften van een product gebruikt worden en er gekeken wordt naar acties van het product zelf of prikkel van buitenaf die op het product invloed hebben. Dit model ga ik toepassen op een fiets.
+          <br /><br />
+          Allereerst heeft een fiets verschillende behoeftes om werkend te zijn. De twee belangrijkste behoeftes die nodig zijn om het product te laten werken is een werkende ketting die de banden in beweging kan laten komen en de kracht van de persoon die op de fiets zit om beweging te creëren. 
+          <br /><br />
+          Verder is een behoefte van de fiets om lucht in de banden te hebben, waardoor het fietsen een stuk sneller gaat.
+          <br /><br />
+          De fiets gedraagt zich als een creature. Zodra de fiets kracht krijgt van de persoon die de fiets bestuurd wordt de fiets energieker en komt hij in beweging, waardoor hij zich beter voelt. Met weinig lucht in de banden is de fiets snel uitgeput, omdat de weerstand veel groter is. De fiets heeft als voorkeur goed opgepompte banden. Ook moet de ketting van de fiets goed werken om ook maar iets van beweging te krijgen, anders voelt de fiets zich alsof hij een been gebroken heeft en niet kan lopen.
+          </p>
+        </>
+        <>
+          <h2>Onderzoek</h2>
+          <Link href="https://www.youtube.com/watch?v=_YLia_Mxr0U">
+            <h3 className={styles.link}>Pou</h3>  
+          </Link>
+          <Link href="https://extraterrestrials.fandom.com/wiki/Pou">
+            <a className={styles.link}>https://extraterrestrials.fandom.com/wiki/Pou</a>
+          </Link>
+          <span style={{color: '#666', marginTop: '16px'}}>Paul Salameh</span>
+          <p className={styles.paragraph}>Pou is een app waarin het doel is om een huisdier te verzorgen. Met het huisdier kan je verschillende dingen doen, zoals wassen, eten geven, aandacht geven. Ook kan je verschillende spelletjes met het huisdier spelen bijvoorbeeld voetbal of volleybal. Het personaliseren van het huisdier is ook mogelijk door hem kleren aan te doen die je kan ontgrendelen in de app.
+            <br /><br />
+            Pou is een artificial creature, omdat het denkt als een echt huisdier. Dit gebeurd bijvoorbeeld door het feit dat Pou om de zoveel tijd eten en drinken nodig heeft om te overleven. Als dit niet gebeurde werd de gebruiker zijn Pou steeds zieker tot je hem weer eten en drinken gaf.
+            <br /><br />
+            Een tijdje geleden was Pou heel populair in Nederland en liet je op school aan elkaar zien hoe goed jij voor je huisdier zorgden. Pou had namelijk ook een leeftijd, waardoor het meetbaar was hoe lang je al voor hem gezorgd had. Ik vind deze app een gave uitvinding, omdat kinderen het idee hebben van een huisdier, maar hierbij niet de volledige verantwoordelijkheid hebben. Als ze het een keer vergeten is het niet erg en kan je opnieuw beginnen.
+            </p>
+        </>
+        <>
+          <h2>Reflectie</h2>
+          <p className={styles.paragraph}>
+          Artificial Creatures vond ik een interessant onderwerp om over te lezen. Het is bizar om te zien dat er tegenwoordig robots gemaakt kunnen worden die de taken van mensen over kunnen nemen.
+          <br /><br />
+          Ik hoop hier in de toekomst nog veel meer over te lezen en te zien. Bijvoorbeeld het probleem van eenzaamheid in Nederland zou hiermee opgelost kunnen worden. 
+          <br /><br />
+          Aan de andere kant kan dit er ook voor zorgen dat sommige vakgebieden overgenomen gaan worden door robots en mensen daardoor hun passie niet meer kunnen doen als werk. Dat is iets wat ik me wel afvraag of dat gaat gebeuren. Ik ben vooral heel benieuwd hoe dit onderwerp zich gaat uitbreiden in de toekomst.
+          <br /><br />
+          Het onderwerp was boven mijn verwachting. Ik wist wel dat er met deze technologie gewerkt werd, maar was mij er niet van bewust dat er al zulke gave dingen gemaakt zijn.
+          </p>
+        </>
       </main>
     </div>
   )

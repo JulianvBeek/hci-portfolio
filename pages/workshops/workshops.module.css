@@ -9,6 +9,7 @@
     display: flex;
     margin: 0 auto;
     flex-direction: column;
+    padding-bottom: 5rem;
   }
   
   .main .title {

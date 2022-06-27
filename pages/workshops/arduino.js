@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Header } from '../../components/header'
-import styles from '../../styles/Home.module.css'
+import styles from './workshops.module.css';
 
 export default function Arduino() {
   return (
@@ -15,6 +15,34 @@ export default function Arduino() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Arduino</h1>
+        <>
+          <h2>Assignments</h2>
+          <h3>3B</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/p6yn2y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>4C</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/hpdi2l" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>6C</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/e3whrm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>7A</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/1f5j1m" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>8A</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/nm62n0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>9C</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/3fq9jg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>11C</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/362137" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>12D</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/xosuhq" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <h3>13A</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/9ofa3i" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>14E</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/odhtyt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>15B</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/qvvg7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>16D</h3>
+          <iframe width="315" height="560" src="https://streamable.com/e/bkh8b7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </>
       </main>
     </div>
   )

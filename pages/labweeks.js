@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Header } from '../components/header'
-import styles from '../styles/Home.module.css'
+import styles from './topics/topics.module.css'
 
 export default function Labweeks() {
   return (
@@ -15,6 +15,38 @@ export default function Labweeks() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Lab Weeks</h1>
+        <>
+          <h2>Day 1</h2>
+          <p>De eerste dag van de labweken werden de groepen gecreëerd. Nadat de groepen bij elkaar zaten en hun tafels en stoelen hadden neergezet begonnen we met een teambuilding opdracht. Hierbij moesten we een teamnaam verzinnen en bijbehorend product knutselen. Hier hebben we elkaars hobby&apos;s vergeleken en zijn we tot de teamnaam the travel buddies gekomen, omdat we allemaal van reizen houden.
+          <br /><br />
+          Nadat we elkaar een stukje beter hebben leren kennen zijn we gaan denken over een idee en kwamen we snel tot de conclusie dat we een interactieve schommel zijn gaan maken. De eerste schetsen werden gemaakt en daarna zijn we richting de bouwmarkt gegaan om de producten te kopen om een schommel te maken. Uiteindelijk zag de het eerste prototype van de schommel er als volgt uit:</p>
+          <h2>Day 2</h2>
+          <p>De tweede dag zijn we gaan nadenken over hoe we de schommel wat steviger konden maken. We kwamen op het idee om karabijnhaken te gebruiken, zodat de schommel wat steviger hangt. Ook hebben een handdoek gekocht, omdat de metalen rand waar de schommel aan hing wat scherp was.
+          <br /><br />
+          Samen met Robin ben ik naar de werkplaats op school gegaan om gaten in de zitting van de schommel te boren, zodat daar de touwen doorheen konden. Uiteindelijk hebben we de schommel helemaal afgekregen op dag twee en ben ik daarna gaan experimenteren met de proximity sensor in combinatie met de schommel. Na een tijd geexperimenteerd te hebben kwamen we tot de conclusie dat een proximity sensor niet gaat werken onder een schommel, omdat de gebruiker zijn voeten ervoor zitten. Hierdoor werden er verkeerde waardes gemeten met de proximity sensor en moesten we een andere oplossing vinden.</p>
+          <h2>Day 3</h2>
+          <p>Op donderdag ben ik met de wifi module voor de arduino aan de slag te gaan. Het leek ons handig om deze te gebruiken, zodat de arduino niet aan een draad vast zit. Hier heb ik veel moeite mee gehad, omdat de tutorials online de wifi module voor iets anders gebruikten, namelijk het besturen van de arduino via een website. Dit was niet wat ik nodig had, dus ben ik verder gaan zoeken op internet. Uiteindelijk ben ik de oplossing niet tegenkomen en heb ik hulp gevraagd aan Chris. Chris vertelde ons dat de arduino draadloos gebruikt kan worden zonder wifi module zolang de arduino stroom heeft. Hier stond ik verbaasd van te kijken en voelde ik me een beetje stom.
+          <br /><br />
+          Nadat ik dit wist ben ik Julian gaan helpen met Ledstrip. Deze kreeg hij net aan de praat dus ben ik hem gaan helpen googlen. Uiteindelijk kwamen we tot de oplossing om een simpelere led strip te kopen, die heel makkelijk aan te sluiten is.</p>
+          <h2>Day 4</h2>
+          <p>Op vrijdag ben ik samen met Julian aan de slag gegaan met de accelerometer. Met deze sensor zouden we de versnelling kunnen meten en op die manier constateren dat iemand aan het schommelen is.
+          <br /><br />    
+          De accelerometer kregen wij helaas niet werkend. Na hulp gevraagd de hebben aan de leraar adviseerde hij ons een lilypad te gebruiken om de versnelling te meten. Deze heb ik samen met Julian aan de praat gekregen en zijn we daar mee gaan experimenteren.</p>
+          <h2>Day 5</h2>
+          <p>De lilypad sensor was te gevoelig om er goede data uit te krijgen. De leraar adviseerde ons om de accelerometer te solderen en te kijken of hij dan werkt. Dit hebben we gedaan en gelukkig werkte de accelerometer. Met deze accelerometer hebben we uiteindelijk de gyroscope sensor van gebruikt om de hoek van de zitting van de schommel te meten om zo te kijken hoe hoog iemand schommelt.
+          <br /><br />    
+          De led strip was onderhand ook binnen gekomen. Samen met Julian hebben we de rest van de dag geexperimenteerd met animaties op de ledstrip in combinatie met de accelerometer.</p>
+          <h2>Day 6</h2>
+          <p>Op dinsdag hebben we arduino met de accelerometer en de ledstrip op de schommel gemonteerd. Na het monteren hiervan stopte de accelerometer met het geven van juiste waardes. Samen met Julian ben ik uren bezig geweest met het debuggen van de code. Uiteindelijk bleek het om 1 regel code te gaan die we toe moesten voegen, namelijk dat de accelerometer op zijn kop gemonteerd zat. Dit was heel frustrerend, omdat we heel veel tijd aan zo een klein puntje besteed hebben.</p>
+          <h2>Day 7</h2>
+          <p>Op woensdag liepen we tegen een ander probleem aan. Tijdens de animaties van de led strip stopte de accelerometer met meten. Dit kwam doordat er een for loop in een andere for loop gebruikt werd. Hier hebben we een lange tijd aan gezeten om een oplossing te zoeken. Uiteindelijk hebben we dit opgelost door gebruik te maken van een lange switch case die voor elk lampje zegt wat die doet.
+          <br /><br />
+          Nadat we dit gemaakt hadden zijn we nog verder gaan experimenteren met de animaties.</p>
+          <h2>Day 8</h2>
+          <p>Op donderdag was de installatie zo goed als klaar. Julian en ik hadden aan de accelerometer van led strip gewerkt en het andere deel van de groep heeft gewerkt aan animaties in processing en het vervormen van geluid. We besloten de schommel nog iets steviger te maken door gebruik te maken van een extra touw. Uiteindelijk hebben we de complete installatie getest en werkte hij volledig.</p>
+          <h2>Day 9</h2>
+          <p>Op vrijdag hebben we nog een tweede ledstrip gemonteerd op de schommel. Deze hadden donderdag besloten om te bestellen, omdat 1 led strip maar 1 kant van de schommel verlichtte. De led strip hebben we gesoldeerd en daarna aangesloten.</p>
+        </>
       </main>
     </div>
   )

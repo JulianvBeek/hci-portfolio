@@ -19,8 +19,8 @@ export function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/topics/arvr">
-                                <a>AR &amp; VR</a>
+                            <Link href="/topics/xr">
+                                <a>XR</a>
                             </Link>
                         </li>
                         <li>
