@@ -5,26 +5,26 @@ import Image from 'next/image';
 
 import aframe2 from '../../public/images/aframe2.png';
 
-import step1 from '../../public/images/tutorial1/start.png';
-import step2 from '../../public/images/tutorial1/Step2.png';
-import step3 from '../../public/images/tutorial1/Step3.png';
-import step4 from '../../public/images/tutorial1/step4.png';
-import step5 from '../../public/images/tutorial1/step5.png';
-import step6 from '../../public/images/tutorial1/step6.png';
-import step7 from '../../public/images/tutorial1/step7.png';
-import step8 from '../../public/images/tutorial1/step8.png';
+import step1 from '../../public/images/tutorial1/Start.PNG';
+import step2 from '../../public/images/tutorial1/Step2.PNG';
+import step3 from '../../public/images/tutorial1/Step3.PNG';
+import step4 from '../../public/images/tutorial1/step4.PNG';
+import step5 from '../../public/images/tutorial1/step5.PNG';
+import step6 from '../../public/images/tutorial1/step6.PNG';
+import step7 from '../../public/images/tutorial1/step7.PNG';
+import step8 from '../../public/images/tutorial1/step8.PNG';
 
-import step2v1 from '../../public/images/tutorial2/step1.png';
-import step2v2 from '../../public/images/tutorial2/step2.png';
-import step2v3 from '../../public/images/tutorial2/step3.png';
-import step2v4 from '../../public/images/tutorial2/step4.png';
-import step2v5 from '../../public/images/tutorial2/step5.png';
-import step2v6 from '../../public/images/tutorial2/step6.png';
-import step2v7 from '../../public/images/tutorial2/step7.png';
-import step2v8 from '../../public/images/tutorial2/step8.png';
-import step2v9 from '../../public/images/tutorial2/step9.png';
-import step2v10 from '../../public/images/tutorial2/step10.png';
-import step2v11 from '../../public/images/tutorial2/step11.png';
+import step2v1 from '../../public/images/tutorial2/step1.PNG';
+import step2v2 from '../../public/images/tutorial2/step2.PNG';
+import step2v3 from '../../public/images/tutorial2/step3.PNG';
+import step2v4 from '../../public/images/tutorial2/step4.PNG';
+import step2v5 from '../../public/images/tutorial2/step5.PNG';
+import step2v6 from '../../public/images/tutorial2/step6.PNG';
+import step2v7 from '../../public/images/tutorial2/step7.PNG';
+import step2v8 from '../../public/images/tutorial2/step8.PNG';
+import step2v9 from '../../public/images/tutorial2/step9.PNG';
+import step2v10 from '../../public/images/tutorial2/step10.PNG';
+import step2v11 from '../../public/images/tutorial2/step11.PNG';
 
 export default function VirtualEnvironment() {
   return (
