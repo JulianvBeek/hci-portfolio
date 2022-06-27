@@ -39,7 +39,7 @@ export default function Wearables() {
             Hieronder is het concept uitgelegd in een afbeelding:
             </p>
             <div>
-              <Image src={concept} width="800px" height="250px"  />
+              <Image alt='image' alt='image' src={concept} width="800px" height="250px"  />
             </div>
           </>
         <>

@@ -43,42 +43,42 @@ export default function VirtualEnvironment() {
           <h2>Aframe</h2>
           <h3>Opdr 2</h3>
           <div>
-            <Image src={aframe2} width="600px" height="400px"  />
+            <Image alt='image' src={aframe2} width="600px" height="400px"  />
           </div>
 
           <h3>Opdr 4</h3>
-          <iframe width="560" height="455" src="https://streamable.com/e/hqb6u0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="455" src="https://streamable.com/e/hqb6u0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
 
           <h3>Opdr 6</h3>
-          <iframe width="560" height="455" src="https://streamable.com/e/qno5k3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="455" src="https://streamable.com/e/qno5k3"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
         </>
         <>
           <h2>Unity</h2>
           <h3>Tutorial 1: FPS</h3>
           <div>
-            <Image style={{marginRight: '20px'}} src={step1} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step2} width="600px" height="400px"  />
-            <Image style={{marginRight: '20px'}} src={step3} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step4} width="600px" height="400px"  />
-            <Image style={{marginRight: '20px'}} src={step5} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step6} width="600px" height="400px"  />
-            <Image style={{marginRight: '20px'}} src={step7} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step8} width="600px" height="400px"  />
+            <Image alt='image' style={{marginRight: '20px'}} src={step1} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step2} width="600px" height="400px"  />
+            <Image alt='image' style={{marginRight: '20px'}} src={step3} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step4} width="600px" height="400px"  />
+            <Image alt='image' style={{marginRight: '20px'}} src={step5} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step6} width="600px" height="400px"  />
+            <Image alt='image' style={{marginRight: '20px'}} src={step7} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step8} width="600px" height="400px"  />
           </div>
 
           <h3>Tutorial 1: FPS</h3>
           <div>
-            <Image style={{marginRight: '20px'}} src={step2v1} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step2v2} width="600px" height="400px"  />
-            <Image style={{marginRight: '20px'}} src={step2v3} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step2v4} width="600px" height="400px"  />
-            <Image style={{marginRight: '20px'}} src={step2v5} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step2v6} width="600px" height="400px"  />
-            <Image style={{marginRight: '20px'}} src={step2v7} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step2v8} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step2v9} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step2v10} width="600px" height="400px"  />
-            <Image style={{marginLeft: '20px'}} src={step2v11} width="600px" height="400px"  />
+            <Image alt='image' style={{marginRight: '20px'}} src={step2v1} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step2v2} width="600px" height="400px"  />
+            <Image alt='image' style={{marginRight: '20px'}} src={step2v3} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step2v4} width="600px" height="400px"  />
+            <Image alt='image' style={{marginRight: '20px'}} src={step2v5} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step2v6} width="600px" height="400px"  />
+            <Image alt='image' style={{marginRight: '20px'}} src={step2v7} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step2v8} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step2v9} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step2v10} width="600px" height="400px"  />
+            <Image alt='image' style={{marginLeft: '20px'}} src={step2v11} width="600px" height="400px"  />
           </div>
         </>
       </main>

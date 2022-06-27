@@ -33,7 +33,7 @@ export default function Playful() {
           <br /><br />
           Deze automaat is een gestructureerde vorm van interactie, omdat alle mogelijkheden van de interactie al vast staan. Verder is het een competitieve installie, omdat je een zo hoog mogelijke score wilt en daardoor zoveel mogelijk keuze aan figuurtjes heb. Deze automaat is een interdependent shared space, omdat de gebruikers dezelfde ruimte gebruiken.</p>
           <div>
-          <Image className={styles.image} src={koffieAfbeelding} width="342px" height="512px"  />
+          <Image alt='image' alt='image' className={styles.image} src={koffieAfbeelding} width="342px" height="512px"  />
           </div>
         </>
         <>

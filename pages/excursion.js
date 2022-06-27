@@ -41,10 +41,10 @@ export default function Excursion() {
         <br /><br />
         Al met al denk ik dat deze installatie een goed voorbeeld is van een interactieve installatie die ook nog handige informatie kan geven aan de gebruiker.</p>
         <div>
-         <Image src={img1} width="450px" height="600px"  />
-         <Image src={img2} width="800px" height="600px"  />
-         <Image src={img4} width="450px" height="600px"  />
-         <Image src={img3} width="800px" height="600px"  />
+         <Image alt='image' alt='image' src={img1} width="450px" height="600px"  />
+         <Image alt='image' alt='image' src={img2} width="800px" height="600px"  />
+         <Image alt='image' alt='image' src={img4} width="450px" height="600px"  />
+         <Image alt='image' alt='image' src={img3} width="800px" height="600px"  />
         </div>
         </>
       </main>
