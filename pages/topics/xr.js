@@ -64,7 +64,7 @@ export default function xr() {
           Het concept dat ik bedacht heb zorgt ervoor dat reizen in het openbaar vervoer een stuk leuker wordt. In dit voorbeeld gebruik ik de trein. De ramen van de trein projecteren verschillende gebeurtenissen, waardoor het voor de reiziger aanvoelt alsof ze daadwerkelijk in een film zitten en de tijd in het openbaar vervoer snel voorbij gaat. Hierbij wordt de technologie gebruikt die ook in de nieuwste auto&apos;s gebruikt wordt zoals hieronder te zien in:
           </p>
           <div>
-            <Image alt='image' alt='image' src={autoAfbeelding} width="600px" height="400px"  />
+            <Image alt='image' src={autoAfbeelding} width="600px" height="400px"  />
           </div>
           <p className={styles.paragraph}>Hieronder is een schets te zien van het concept:</p>
     	    {/* TODO: Insert Image */}

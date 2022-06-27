@@ -23,7 +23,7 @@ export default function ComputerVision() {
           <h2>Assignments</h2>
           <h3>Portfolio assignment 3</h3>
           <div>
-            <Image alt='image' alt='image' src={opdr3} width="800px" height="400px"  />
+            <Image alt='image' src={opdr3} width="800px" height="400px"  />
           </div>
           <h3>Portfolio assignment 7</h3>
           <iframe width="560" height="315" src="https://streamable.com/e/at3hhq"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
